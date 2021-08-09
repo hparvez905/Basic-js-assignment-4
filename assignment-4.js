@@ -108,3 +108,23 @@ const result=deliveryCost(0);
 console.log(result);
 
 */
+//problem-4
+
+/*
+const friends=['ansari','sabbir','noyon','topu','toukir','hannan','mahmud','navid','sakib','rakib'];
+
+function perfectFriend(friends) {
+    for (let i = 0; i < friends.length; i++) {
+        const element = friends[i];
+        if (element.length == 5) {
+            return element;
+            
+        }
+        
+    }
+
+}
+const result = perfectFriend(friends);
+console.log(result);
+
+*/

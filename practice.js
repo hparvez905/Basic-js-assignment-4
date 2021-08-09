@@ -5,7 +5,7 @@ function deliveryCost(tshirt_delivery_quantity) {
         return tshirt_delivery_cost;
         
     }
-    else if (100 <= tshirt_delivery_quantity && tshirt_delivery_quantity <= 200) {
+    else if (100<= tshirt_delivery_quantity && tshirt_delivery_quantity <=201) {
             const first_cost=100*100;
             const rest_cost=80*(tshirt_delivery_quantity-100);
           
@@ -28,5 +28,5 @@ function deliveryCost(tshirt_delivery_quantity) {
     
 }
 
-const result=deliveryCost(300);
+const result=deliveryCost(210);
 console.log(result);
